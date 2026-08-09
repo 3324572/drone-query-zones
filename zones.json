@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T02:02:27.176Z",
+  "updatedAt": "2026-08-09T23:04:23.464Z",
   "source": "manual",
   "zones": [
     {
@@ -245,7 +245,7 @@
       "city": "成都",
       "province": "四川省",
       "type": "机场",
-      "level": "���飞",
+      "level": "�������飞",
       "radius": 5000,
       "altitudeLimit": 0,
       "center": {
@@ -399,7 +399,7 @@
       "id": "generic-military",
       "name": "军事禁区",
       "city": "通用",
-      "province": "全国",
+      "province": "���国",
       "type": "军事禁区",
       "level": "禁飞",
       "radius": 2000,
@@ -499,6 +499,509 @@
       "exceptions": "持有低空飞行管制服务系统出具的正式批准回执者，可按批准范围飞行。"
     }
   ],
-  "lastUpdateSource": "github-actions-daily",
-  "dataSource": "based on public notices, not UOM real-time data"
+  "lastUpdateSource": "github-actions-daily-heartbeat",
+  "dataSource": "based on public notices, not UOM real-time data",
+  "lastContentChange": "2026-08-09T02:02:27.176Z",
+  "lastBackup": {
+    "updatedAt": "2026-08-09T02:11:43.970Z",
+    "zonesCount": 25,
+    "zones": [
+      {
+        "id": "bj-capital-airport",
+        "name": "北京首都国际机场",
+        "city": "北京",
+        "province": "北京市",
+        "type": "机场",
+        "level": "禁飞",
+        "radius": 5000,
+        "altitudeLimit": 0,
+        "center": {
+          "lat": 40.0801,
+          "lng": 116.5846
+        },
+        "description": "首都国际机场跑道两端延长线各20公里，两侧各10公里范围为禁飞区。",
+        "regulations": [
+          "严禁任何民用无人机飞行",
+          "半径5公里内绝对禁飞",
+          "5-10公里限高120米需报备",
+          "违规飞行将追究法律责任"
+        ],
+        "exceptions": "经空军和民航局批准的特殊作业除外"
+      },
+      {
+        "id": "bj-daxing-airport",
+        "name": "北京大兴国际机场",
+        "city": "北京",
+        "province": "北京市",
+        "type": "机场",
+        "level": "禁飞",
+        "radius": 5000,
+        "altitudeLimit": 0,
+        "center": {
+          "lat": 39.5098,
+          "lng": 116.4107
+        },
+        "description": "大兴国际机场净空保护区，严禁无人机活动。",
+        "regulations": [
+          "跑道中心线两侧各10公里、跑道端外20公里内禁飞",
+          "周边放飞风筝、气球等也受限制",
+          "模型飞机等升空物体同样受限"
+        ]
+      },
+      {
+        "id": "bj-tiananmen",
+        "name": "天安门广场及周边",
+        "city": "北京",
+        "province": "北京市",
+        "type": "政府机关",
+        "level": "禁飞",
+        "radius": 3000,
+        "altitudeLimit": 0,
+        "center": {
+          "lat": 39.9087,
+          "lng": 116.3975
+        },
+        "description": "首都核心区，重大政治活动场所，全年禁飞。",
+        "regulations": [
+          "天安门广场以东、以西、以北各2公里内禁飞",
+          "全年禁止任何无人机飞行",
+          "重大活动期间管控范围扩大"
+        ]
+      },
+      {
+        "id": "bj-zhongnanhai",
+        "name": "中南海地区",
+        "city": "北京",
+        "province": "北京市",
+        "type": "政府机关",
+        "level": "禁飞",
+        "radius": 2000,
+        "altitudeLimit": 0,
+        "center": {
+          "lat": 39.9139,
+          "lng": 116.3833
+        },
+        "description": "国家党政机关所在地，禁飞区域。",
+        "regulations": [
+          "中南海及周边1公里范围核心禁飞",
+          "禁止一切低空飞行物"
+        ]
+      },
+      {
+        "id": "bj-badaling",
+        "name": "八达岭长城景区",
+        "city": "北京",
+        "province": "北京市",
+        "type": "自然保护区",
+        "level": "限飞",
+        "radius": 2000,
+        "altitudeLimit": 120,
+        "center": {
+          "lat": 40.3576,
+          "lng": 116.0205
+        },
+        "description": "世界文化遗产，旅游区核心区限飞。",
+        "regulations": [
+          "景区内限高120米",
+          "节假日游客高峰期建议不要飞行",
+          "需远离文物保护建筑",
+          "保持安全距离避免惊扰游客"
+        ]
+      },
+      {
+        "id": "sh-pudong-airport",
+        "name": "上海浦东国际机场",
+        "city": "上海",
+        "province": "上海市",
+        "type": "机场",
+        "level": "禁飞",
+        "radius": 5000,
+        "altitudeLimit": 0,
+        "center": {
+          "lat": 31.1443,
+          "lng": 121.8083
+        },
+        "description": "浦东国际机场净空保护区。",
+        "regulations": [
+          "跑道中心线两侧各10公里、端外20公里禁飞",
+          "严禁无人机进入"
+        ]
+      },
+      {
+        "id": "sh-hongqiao-airport",
+        "name": "上海虹桥国际机场",
+        "city": "上海",
+        "province": "上海市",
+        "type": "机场",
+        "level": "禁飞",
+        "radius": 5000,
+        "altitudeLimit": 0,
+        "center": {
+          "lat": 31.1979,
+          "lng": 121.3363
+        },
+        "description": "虹桥机场净空保护区，与市区较近需特别注意。",
+        "regulations": [
+          "跑道两端各15公里、两侧各6公里禁飞"
+        ]
+      },
+      {
+        "id": "sh-bund",
+        "name": "外滩及陆家嘴核心区",
+        "city": "上海",
+        "province": "上海市",
+        "type": "城市核心区",
+        "level": "限飞",
+        "radius": 3000,
+        "altitudeLimit": 150,
+        "center": {
+          "lat": 31.2397,
+          "lng": 121.4908
+        },
+        "description": "上海市中心核心区，人员密集高楼林立。",
+        "regulations": [
+          "陆家嘴、外滩核心区建议谨慎飞行",
+          "严禁飞越黄浦江上空注意避让航空器",
+          "人员密集区保持安全距离",
+          "注意避让高楼大厦"
+        ]
+      },
+      {
+        "id": "gz-baiyun-airport",
+        "name": "广州白云国际机场",
+        "city": "广州",
+        "province": "广东省",
+        "type": "机场",
+        "level": "禁飞",
+        "radius": 5000,
+        "altitudeLimit": 0,
+        "center": {
+          "lat": 23.3924,
+          "lng": 113.2988
+        },
+        "description": "广州白云机场净空保护区。",
+        "regulations": [
+          "机场跑道中心线两侧各10公里端外各20公里禁飞"
+        ]
+      },
+      {
+        "id": "sz-baoan-airport",
+        "name": "深圳宝安国际机场",
+        "city": "深圳",
+        "province": "广东省",
+        "type": "机场",
+        "level": "禁飞",
+        "radius": 5000,
+        "altitudeLimit": 0,
+        "center": {
+          "lat": 22.6393,
+          "lng": 113.8107
+        },
+        "description": "深圳宝安机场净空保护区。",
+        "regulations": [
+          "机场5公里范围禁飞",
+          "5-10公里需报备"
+        ]
+      },
+      {
+        "id": "sz-hongkong-border",
+        "name": "深港边界沿线",
+        "city": "深圳",
+        "province": "广东省",
+        "type": "边境",
+        "level": "禁飞",
+        "radius": 1000,
+        "altitudeLimit": 0,
+        "center": {
+          "lat": 22.5264,
+          "lng": 114.1269
+        },
+        "description": "深圳与香港边界线沿线1公里范围禁飞。",
+        "regulations": [
+          "严禁跨越深港分界线飞行",
+          "边界两侧各1公里范围禁飞",
+          "防止无人机非法越境",
+          "违者按走私处理"
+        ]
+      },
+      {
+        "id": "cd-shuangliu-airport",
+        "name": "成都双流国际机场",
+        "city": "成都",
+        "province": "四川省",
+        "type": "机场",
+        "level": "禁飞",
+        "radius": 5000,
+        "altitudeLimit": 0,
+        "center": {
+          "lat": 30.5785,
+          "lng": 103.9472
+        },
+        "description": "双流机场净空保护区。",
+        "regulations": [
+          "5公里内禁飞",
+          "5-10公里限高报备"
+        ]
+      },
+      {
+        "id": "cd-tianfu-airport",
+        "name": "成都天府国际机场",
+        "city": "成都",
+        "province": "四川省",
+        "type": "机场",
+        "level": "�������飞",
+        "radius": 5000,
+        "altitudeLimit": 0,
+        "center": {
+          "lat": 30.3286,
+          "lng": 104.4418
+        },
+        "description": "天府国际机场净空保护区。",
+        "regulations": [
+          "机场跑道端20公里延长线两侧10公里禁飞"
+        ]
+      },
+      {
+        "id": "xa-xianyang-airport",
+        "name": "西安咸阳国际机场",
+        "city": "咸阳",
+        "province": "陕西省",
+        "type": "机场",
+        "level": "禁飞",
+        "radius": 5000,
+        "altitudeLimit": 0,
+        "center": {
+          "lat": 34.4471,
+          "lng": 108.7516
+        },
+        "description": "西安咸阳国际机场净空保护区。",
+        "regulations": [
+          "跑道中心线两侧10公里，端外各20公里"
+        ]
+      },
+      {
+        "id": "xa-xin-great-wall",
+        "name": "秦始皇陵及兵马俑",
+        "city": "西安",
+        "province": "陕西省",
+        "type": "自然保护区",
+        "level": "报备飞行",
+        "radius": 3000,
+        "altitudeLimit": 300,
+        "center": {
+          "lat": 34.3847,
+          "lng": 109.2786
+        },
+        "description": "世界文化遗产，文保单位内限高300米，需报备。",
+        "regulations": [
+          "兵马俑博物馆馆区内严禁飞行",
+          "陵区内飞行高度不超过300米",
+          "需提前向文物部门报备"
+        ]
+      },
+      {
+        "id": "xa-city-wall",
+        "name": "西安明城墙景区",
+        "city": "西安",
+        "province": "陕西省",
+        "type": "自然保护区",
+        "level": "限飞",
+        "radius": 1000,
+        "altitudeLimit": 120,
+        "center": {
+          "lat": 34.2658,
+          "lng": 108.9402
+        },
+        "description": "西安明城墙是世界文化遗产，景区限高。",
+        "regulations": [
+          "景区内游客密集区谨慎飞行",
+          "限高120米",
+          "节假日避开高峰"
+        ]
+      },
+      {
+        "id": "hz-xiaoshan-airport",
+        "name": "杭州萧山国际机场",
+        "city": "杭州",
+        "province": "浙江省",
+        "type": "机场",
+        "level": "禁飞",
+        "radius": 5000,
+        "altitudeLimit": 0,
+        "center": {
+          "lat": 30.2364,
+          "lng": 120.4337
+        },
+        "description": "萧山机场净空保护区。",
+        "regulations": [
+          "5公里内禁飞",
+          "5-10公里报备"
+        ]
+      },
+      {
+        "id": "hz-west-lake",
+        "name": "西湖风景名胜区",
+        "city": "杭州",
+        "province": "浙江省",
+        "type": "自然保护区",
+        "level": "限飞",
+        "radius": 3000,
+        "altitudeLimit": 120,
+        "center": {
+          "lat": 30.2431,
+          "lng": 120.1438
+        },
+        "description": "世界文化遗产，5A级景区。",
+        "regulations": [
+          "景���内限高120米",
+          "断桥、苏堤等游客密集区谨慎飞行",
+          "远离水面防止落水风险"
+        ]
+      },
+      {
+        "id": "generic-nuclear-plant",
+        "name": "核电站周边（以秦山为例）",
+        "city": "嘉兴",
+        "province": "浙江省",
+        "type": "核电站",
+        "level": "禁飞",
+        "radius": 5000,
+        "altitudeLimit": 0,
+        "center": {
+          "lat": 30.4384,
+          "lng": 120.9561
+        },
+        "description": "核电站周边5公里为核心禁飞区。",
+        "regulations": [
+          "核电站核心区5公里内禁飞",
+          "5-10公里需严格报备审批",
+          "严禁任何无人机飞越核设施",
+          "违者重罚"
+        ]
+      },
+      {
+        "id": "generic-prison",
+        "name": "监狱及看守所周边",
+        "city": "通用",
+        "province": "全国",
+        "type": "监狱",
+        "level": "禁飞",
+        "radius": 1000,
+        "altitudeLimit": 0,
+        "center": {
+          "lat": 39.9042,
+          "lng": 116.4074
+        },
+        "description": "全国监狱、看守所周边1公里禁飞。",
+        "regulations": [
+          "严禁在监狱周边1公里范围飞行",
+          "防止非法投递物资",
+          "刑事追责"
+        ]
+      },
+      {
+        "id": "generic-military",
+        "name": "军事禁区",
+        "city": "通用",
+        "province": "���国",
+        "type": "军事禁区",
+        "level": "禁飞",
+        "radius": 2000,
+        "altitudeLimit": 0,
+        "center": {
+          "lat": 39.9042,
+          "lng": 116.4074
+        },
+        "description": "军事管理区及军事禁区范围。",
+        "regulations": [
+          "军事管理区2公里内禁飞",
+          "严禁拍摄军事设施",
+          "涉密信息严格保密"
+        ]
+      },
+      {
+        "id": "generic-highspeed",
+        "name": "高铁线路两侧",
+        "city": "通用",
+        "province": "全国",
+        "type": "高铁沿线",
+        "level": "限飞",
+        "radius": 500,
+        "altitudeLimit": 120,
+        "center": {
+          "lat": 39.9042,
+          "lng": 116.4074
+        },
+        "description": "高速铁路线路两侧各500米范围。",
+        "regulations": [
+          "高铁线路两侧500米内建议不要飞行",
+          "防止电磁干扰",
+          "限高120米",
+          "远离受电弓安全距离"
+        ]
+      },
+      {
+        "id": "generic-large-event",
+        "name": "大型活动临时管控区",
+        "city": "通用",
+        "province": "全国",
+        "type": "大型活动",
+        "level": "禁飞",
+        "radius": 2000,
+        "altitudeLimit": 0,
+        "center": {
+          "lat": 39.9042,
+          "lng": 116.4074
+        },
+        "description": "大型赛事、演唱会、庆典等活动临时管控。",
+        "regulations": [
+          "大���体育赛事、演唱会等禁飞",
+          "国庆节、春节等庆典活动期间临时管控",
+          "具体范围以当地公安局公告为准"
+        ]
+      },
+      {
+        "id": "generic-hospital",
+        "name": "医院及学校周边",
+        "city": "通用",
+        "province": "全国",
+        "type": "医院/学校",
+        "level": "限飞",
+        "radius": 500,
+        "altitudeLimit": 120,
+        "center": {
+          "lat": 39.9042,
+          "lng": 116.4074
+        },
+        "description": "医院、学校、幼儿园周边500米。",
+        "regulations": [
+          "学校周边上学放学时间避免飞行",
+          "医院起降影响病人休息",
+          "保持安全距离"
+        ]
+      },
+      {
+        "id": "generic-residential-density-zone",
+        "name": "人口密集住宅区/道路区域（通用管控）",
+        "city": "通用",
+        "province": "全国",
+        "type": "人口密集区",
+        "level": "报备飞行",
+        "radius": 500,
+        "altitudeLimit": 120,
+        "center": {
+          "lat": 39.9042,
+          "lng": 116.4074
+        },
+        "description": "居民小区、花园、公寓、村镇道路等人口/建筑物密集区域。依据《无人驾驶航空器飞行管理暂行条例》，此类区域上空飞行需提前通过报备系统（UOM）提交申请，未经批准严禁擅自飞行。",
+        "regulations": [
+          "��须通过 UOM 报备系统完成飞行计划提交并获得批准",
+          "飞行真高不超过 120 米，保持与建筑/人群 50 米以上安全距离",
+          "避开早晚高峰、上学/放学时段，严禁在居民阳台/窗户附近悬停拍摄",
+          "250g 以上无人机需完成实名登记，驾驶员需持有对应类别执照"
+        ],
+        "exceptions": "持有低空飞行管制服务系统出具的正式批准回执者，可按批准范围飞行。"
+      }
+    ]
+  }
 }
