@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T23:04:23.464Z",
+  "updatedAt": "2026-08-10T23:53:11.212Z",
   "source": "manual",
   "zones": [
     {
@@ -245,7 +245,7 @@
       "city": "成都",
       "province": "四川省",
       "type": "机场",
-      "level": "�������飞",
+      "level": "���������飞",
       "radius": 5000,
       "altitudeLimit": 0,
       "center": {
@@ -503,7 +503,7 @@
   "dataSource": "based on public notices, not UOM real-time data",
   "lastContentChange": "2026-08-09T02:02:27.176Z",
   "lastBackup": {
-    "updatedAt": "2026-08-09T02:11:43.970Z",
+    "updatedAt": "2026-08-09T23:04:23.464Z",
     "zonesCount": 25,
     "zones": [
       {
@@ -749,7 +749,7 @@
         "city": "成都",
         "province": "四川省",
         "type": "机场",
-        "level": "�������飞",
+        "level": "���������飞",
         "radius": 5000,
         "altitudeLimit": 0,
         "center": {
